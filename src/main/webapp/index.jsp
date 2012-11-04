@@ -9,8 +9,10 @@
     </head>
     <body>
         <h2>Prosta aplikacja JEE</h2>
-        <p><a href="info">Informacje o mnie</a></p>
+        <p><a href="info">Informacje</a></p>
         <p><a href="form">Wypełnij formularz</a></p>
+        <p><a href="session3">Sesja</a></p>
+        <p><a href="wypform.jsp">Wypelnij formularz</a></p>
         <p><a href="getPersonData.jsp">Fill a Person form</a></p>
     </body>
 </html>

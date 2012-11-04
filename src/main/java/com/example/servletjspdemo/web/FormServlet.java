@@ -22,7 +22,7 @@ public class FormServlet extends HttpServlet {
 		
 		PrintWriter out = response.getWriter();
 		out.println("<html><body><h2>Latwy formularz</h2>" +
-				"<form action='data'>" +
+				"<form action='formularz.jsp'>" +
 				"Imie: <input type='text' name='imie' /> <br />" +
 				"Nazwisko: <input type='text' name='nazwisko' /> <br />" +
 				"<input type='checkbox' name='hobby' value='bicycle'>I like riding a bicycle<br />" +
