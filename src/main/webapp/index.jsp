@@ -14,5 +14,6 @@
         <p><a href="session3">Sesja</a></p>
         <p><a href="wypform.jsp">Wypelnij formularz</a></p>
         <p><a href="getPersonData.jsp">Fill a Person form</a></p>
+        <p><a href="formbean.jsp">Formularz z beansami</a></p>
     </body>
 </html>
