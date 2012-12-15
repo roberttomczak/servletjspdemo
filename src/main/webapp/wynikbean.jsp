@@ -3,13 +3,14 @@
 <jsp:setProperty property="nazwisko" name="form" param="nazwisko"/>
 <jsp:setProperty property="jedzenie" name="form" param="jedzenie"/>
 <jsp:useBean id="formapp" class="com.example.servletjspdemo.web.Form" scope="application"/> 
-<jsp:setProperty property="cars" name="form" param="cars"/>
 <jsp:setProperty property="hobby" name="form" param="hobby"/>
+<jsp:setProperty property="cars" name="form" param="cars"/>
 <body>
 Imie: <%= form.getImie() %><BR>
 Nazwisko: <%= form.getNazwisko() %><BR>
 Jedzenie: <%= form.getJedzenie() %><BR>
 Hobby: <%= form.getHobby() %><BR>
-Car: <jsp:getProperty name="formapp" property="cars" /><BR>
+<%-- Cars: <jsp:getProperty name="formapp" property="cars" /><BR> --%>
+Cars: <%= form.getCars() %><BR>
 </body>
 </html>

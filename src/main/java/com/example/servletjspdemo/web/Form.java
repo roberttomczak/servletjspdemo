@@ -5,11 +5,11 @@ package com.example.servletjspdemo.web;
 
 public class Form {
 	
-	String imie;
-	String nazwisko;
-	String hobby;
-	String jedzenie;
-	String cars;
+	String imie = "nieznane";
+	String nazwisko = "nieznane";
+	String hobby = "nieznane";
+	String jedzenie ="nieznane";
+	String cars = "nieznane";
 	
 
 	public String getImie() {
@@ -35,6 +35,7 @@ public class Form {
 		this.jedzenie = value;
 	}
 	public String getCars() {return cars;}
+	
 	public void setCars(String value) {
 		this.cars = value;
 	}
